@@ -1,0 +1,11 @@
+para ver se uma string esta vazia ou não usar :
+
+variavel .isEmpty()  = quando a string esta vazia  ex var alguma coisa = ""
+se apertar a tecla espaço, me gerara espaços  vazios dentro dos parenteses vai me retornar false pois
+os espaços em branco ocupa espaço 
+variavel.isBlank() = quando a string esta em branco ou seja não tem valor algum
+dentro dela, mesmo colocando espaços em branco dentro dos parenteses ela vai 
+me retornar true , pois não tem valor signigficativo dentro dela 
+
+
+em kotlin o switch case = when{}else

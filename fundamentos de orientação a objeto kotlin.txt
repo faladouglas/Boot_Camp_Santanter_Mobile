@@ -1,0 +1,10 @@
+Fundamentos de Orientação a Objeto Kotlin
+
+
+inner class   //usado para criar uma subclasse , ou seja uma classe 
+secundaria dentro de uma classe principal 
+
+
+private set // não permite que seja alterado os dados da variavel em 
+quaisquer outras partes da aplicação. porem ele ainda permnite usar o 
+(get: chamar em funções).
