@@ -15,9 +15,10 @@ package one.digitalinnovation.digionebank
      override fun toString(): String ="""
          Nome: $nome
          Cpf: $cpf
-         Cargo: $cargo
+         Cargo: $cargo         
          Salario: R$ $salario
          Auxilio: R$ ${calculoAuxilio()}
+         
      """.trimIndent()
 
  }
