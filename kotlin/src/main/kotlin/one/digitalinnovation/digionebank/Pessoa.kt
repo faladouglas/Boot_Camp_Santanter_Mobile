@@ -7,7 +7,8 @@ class Pessoa {
     var cpf:String = "367.585.896-98"
         private set
 
-
+constructor()
+    fun pessoainfo() = "$nome \n$cpf"
 
 
 
@@ -15,6 +16,7 @@ class Pessoa {
 fun main(){
     val douglas = Pessoa()
 
-    println(douglas.nome)
-    println(douglas.cpf)
+    //println(douglas.nome)
+    //println(douglas.cpf)
+    println(douglas.pessoainfo())
 }
