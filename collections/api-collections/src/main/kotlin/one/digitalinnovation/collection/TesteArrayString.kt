@@ -23,8 +23,8 @@ fun main() {
     println("--------------------")
     val nomes2  = arrayOf("junior","pedro","maria")
     nomes2.sort()
-    nomes2.forEach { nomes2 ->
-        println(nomes2)
+    nomes2.forEach {
+        println(it)
 
     }
 
